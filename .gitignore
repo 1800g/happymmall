@@ -48,3 +48,6 @@ Thumbs.db
 
 #db config
 datasource.properties
+
+#ftp config
+mmall.properties

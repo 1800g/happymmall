@@ -4,7 +4,7 @@ import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 
 /**
- * Create By 1800g
+ * Create By Hugo Liao
  */
 
 public interface IUserService {
@@ -79,4 +79,11 @@ public interface IUserService {
      * @return
      */
     ServerResponse<User> getInformation(Integer userId);
+
+    /**
+     * 校验是否是管理员
+     * @param user
+     * @return
+     */
+    ServerResponse checkAdminRole(User user);
 }
